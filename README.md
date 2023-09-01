@@ -1,26 +1,22 @@
-#### Welcome
+## Welcome
 
-This documentation is generalized from my learning and work experience, including two language
-editions. Refer to [wiki-kingen](https://eastsunrise.github.io/wiki-kingen) for the Chinese edition.
-As follows are the parts that the documentation is divided to:
+This is a personal documentation site that summarizes my learning and work experience. This site contains two language editions: Chinese and English. You can refer to the Chinese edition by [wiki-kingen](https://github.com/eastsunrise/wiki-kingen/).
 
-**Java** which I major in is the primary part, including language references, extended libraries,
-and many frameworks based on Java.
+This site is divided into several parts, as follows:
 
-The part named **CS** is for all subjects or courses of fundamental technologies in Computer
-Science (e.g. operating system, data structures, and algorithms).
+**Java** which I major in is the primary part including basic syntax, extension libraries and various framework based on Java;
 
-The third part is for **Python** which is generally applied to programming that requires efficiency.
+**CS** part is mainly about basic knowledge of Computer Science, such as operating system, data structures, alogorithms, etc;
 
-Besides, various technologies are involved when it occurs to development. All of extra knowledge are
-included in the fourth part collectively called **Development**.
+The third part is about **Python**, which is usually applied to programming that requires efficiency;
 
-Finally, other knowledge points with little relevance to development are attached to miscellaneous
-items, **Misc** for short.
+Besides, various other technologies that may be involved during development are included in the fourth part----**Development**;
 
-#### References
+As for other topics that are not closely related to development, they are allocated in **Misc**.
 
-1. [GeeksforGeeks](https://www.geeksforgeeks.org/).
-2. [Stack Overflow](https://stackoverflow.com/questions).
-3. Introduction to Algorithms (Third Edition).
-4. Others.
+## References
+
+-   [GeeksforGeeks](https://www.geeksforgeeks.org/).
+-   [Stack Overflow](https://stackoverflow.com/questions).
+-   Introduction to Algorithms (Third Edition).
+-   Others.

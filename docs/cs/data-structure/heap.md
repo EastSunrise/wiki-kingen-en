@@ -1,10 +1,10 @@
-#### Overview
+## Overview
 
 A Binary Heap is a Complete Binary Tree where items are stored in a special order such that value in a parent node is greater(or smaller) than the values in its two children nodes. The former is called as max heap and the latter is called min heap.
 
 The heap can be represented by array. If the parent node is stored at index $i$, the left child can be calculated by $2i+1$ and right child by $2i+2$ (assuming the indexing starts at 0).
 
-##### Implementation
+## Implementation
 
 ```java
 // Data structure of Heap

@@ -1,12 +1,12 @@
-#### Overview
+## Overview
 
 [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool.
 
-#### Configuration
+## Configuration
 
 Download [Maven](http://maven.apache.org/download.cgi) and add to PATH.
 
-Create a copy of *conf/settings.xml* to add an internal mirror and modify the path of local repository. Following is a mirror of *aliyun*.
+Create a copy of _conf/settings.xml_ to add an internal mirror and modify the path of local repository. Following is a mirror of _aliyun_.
 
 ```xml
 <mirror>
@@ -17,11 +17,11 @@ Create a copy of *conf/settings.xml* to add an internal mirror and modify the pa
 </mirror>
 ```
 
-#### Nexus
+## Nexus
 
-Build a private Maven server with Nexus
+Build a private Maven server with Nexus.
 
-#### References
+## References
 
-1. [Maven – Maven Documentation](http://maven.apache.org/guides/)
-2. [GitHub - apache/maven-sources: Apache Maven Sources](https://github.com/apache/maven-sources)
+-   [Maven – Maven Documentation](http://maven.apache.org/guides/)
+-   [GitHub - apache/maven-sources: Apache Maven Sources](https://github.com/apache/maven-sources)

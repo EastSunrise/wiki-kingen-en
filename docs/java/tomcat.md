@@ -1,14 +1,14 @@
-#### Overview
+## Overview
 
 [Apache Tomcat](http://tomcat.apache.org/) is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies.
 
-#### Configuration
+## Configuration
 
-Run *bin/service.bat* to add Tomcat to Windows service.
+Run _bin/service.bat_ to add Tomcat to Windows service.
 
-#### Publish Static Pages
+## Publish Static Pages
 
-Create a xml file under *conf/Catalina/localhost* with:
+Create a xml file under _conf/Catalina/localhost_ with:
 
 ```xml
 <!--'path' is optional-->
@@ -16,14 +16,14 @@ Create a xml file under *conf/Catalina/localhost* with:
 <Context path="{path}" docBase="{dir_to_deploy}" debug="0" reloadable="true" crossContext="true"/>
 ```
 
-Access the website from <ip:port/path/>
+Access the website from [http://127.0.0.1:8080/index.html](http://127.0.0.1:8080/index.html).
 
-#### FAQ
+## FAQ
 
-##### Accessed from LAN
+### Accessed from LAN
 
-Just access the server from <{LAN_ip}:{port}>. If failed, open advanced settings of firewall and then add a *Inbound Rule* for the port of Tomcat, *8080* as usual.
+Just access the server from the address. If failed, open advanced settings of firewall and then add a _Inbound Rule_ for the port of Tomcat, _8080_ as usual.
 
-#### References
+## References
 
-1. [Apache Tomcat® - Welcome!](http://tomcat.apache.org/)
+-   [Apache Tomcat® - Welcome!](http://tomcat.apache.org/)

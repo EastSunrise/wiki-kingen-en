@@ -1,14 +1,14 @@
-$(function () {
-    // replace footer of mkdocs
-    $("footer").each(function () {
-        $(this).html("<p>Kingen | <a href='https://github.com/eastsunrise/wiki-kingen'>Wiki-Kingen - GitHub</a></p>");
-    });
+// open a http/https link in a new label
+for (let a of document.getElementsByTagName("a")) {
+    let href = a.getAttribute("href") || "";
+    if (href.startsWith("http://") || href.startsWith("https://")) {
+        a.setAttribute("target", "_blank");
+    }
+}
 
-    // open a http/https link with a new label
-    $("a").each(function () {
-        var href = $(this).attr('href');
-        if (typeof (href) != "undefined" && href.startsWith('http')) {
-            $(this).attr('target', '_blank');
-        }
-    });
-});
+// replace footers of mkdocs
+for (let footer of document.getElementsByTagName("footer")) {
+    footer.innerHTML =
+        "<p style='text-align: center;'><a href='https://github.com/eastsunrise/wiki-kingen-en/'>wiki-kingen-en - GitHub</a>&emsp;" +
+        "|&emsp;<a href='https://eastsunrise.github.io/wiki-kingen/'>Chinese</a></p>";
+}
