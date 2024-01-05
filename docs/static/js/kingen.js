@@ -10,5 +10,5 @@ for (let a of document.getElementsByTagName("a")) {
 for (let footer of document.getElementsByTagName("footer")) {
     footer.innerHTML =
         "<p style='text-align: center;'><a href='https://github.com/eastsunrise/wiki-kingen-en/'>wiki-kingen-en - GitHub</a>&emsp;" +
-        "|&emsp;<a href='https://eastsunrise.github.io/wiki-kingen/'>Chinese</a></p>";
+        "|&emsp;<a href='/wiki-kingen/'>Chinese</a></p>";
 }

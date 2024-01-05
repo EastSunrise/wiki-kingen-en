@@ -8,194 +8,191 @@ edit_uri: edit/master/docs
 remote_branch: gh-deploy
 dev_addr: 127.0.0.1:6802
 theme:
-    name: material
-    language: en
-    logo: assets/images/Ceil.png
-    favicon: assets/images/favicon.ico
-    palette:
-        scheme: slate # dark mode
-        primary: indigo
-        accent: indigo
-    features:
-        - navigation.indexes
-        - toc.follow
-        - navigation.top
-    icon:
-        repo: fontawesome/brands/github
+  name: material
+  language: en
+  logo: assets/images/Ceil.png
+  favicon: assets/images/favicon.ico
+  palette:
+    scheme: slate # dark mode
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github
 extra_javascript:
-    - static/js/kingen.js
-    - static/js/katex.js
-    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.js
+  - static/js/kingen.js
+  - static/js/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.js
 extra_css:
-    - static/css/material.css
-    - static/css/katex.css
-    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css
+  - static/css/material.css
+  - static/css/katex.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css
 use_directory_urls: false
 markdown_extensions:
-    - abbr
-    - admonition
-    - attr_list
-    - def_list
-    - footnotes
-    - meta
-    - md_in_html
-    - toc:
-          permalink: true
-    - tables
-    - pymdownx.arithmatex:
-          generic: true
-    - pymdownx.betterem:
-          smart_enable: all
-    - pymdownx.caret
-    - pymdownx.details
-    - pymdownx.emoji:
-          emoji_index: !!python/name:materialx.emoji.twemoji
-          emoji_generator: !!python/name:materialx.emoji.to_svg
-    - pymdownx.highlight:
-          anchor_linenums: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.keys
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tabbed:
-          alternate_style: true
-    - pymdownx.tasklist:
-          custom_checkbox: true
-    - pymdownx.tilde
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 nav:
-    - Home: index.md
-    - Java:
-          - Java: java/index.md
-          - Basic Syntax:
-                - Annotation: java/basic/annotation.md
-                - Collection: java/basic/collection.md
-          - Extension Libraries:
-                - Apache Commons: java/lib/apache-commons.md
-                - Apache POI: java/lib/apache-poi.md
-                - HttpComponents: java/lib/http-components.md
-                - Lombok: java/lib/lombok.md
-                - Fastjson: java/lib/fastjson.md
-                - Jsoup: java/lib/jsoup.md
-          - Design Patterns:
-                - State Pattern: java/design-pattern/state-pattern.md
-                - Singleton Pattern: java/design-pattern/singleton-pattern.md
-          - Spring:
-                - Spring: java/spring/index.md
-                - AOP: java/spring/aop.md
-                - Transaction: java/spring/transaction.md
-                - Spring Boot: java/spring/spring-boot.md
-          - MyBatis: java/mybatis.md
-          - Tomcat: java/tomcat.md
-          - Maven: java/maven.md
-          - Freemarker: java/freemarker.md
-          - OGNL: java/ognl.md
-    - CS:
-          - Mathematics:
-                - Fourier Transform: cs/math/fourier-transform.md
-          - Algorithm:
-                - Algorithm: cs/algorithm/index.md
-                - Sort:
-                      - Sort: cs/algorithm/sort/index.md
-                      - Insertion Sort: cs/algorithm/sort/insertion-sort.md
-                      - Merge Sort: cs/algorithm/sort/merge-sort.md
-                      - Bucket Sort: cs/algorithm/sort/bucket-sort.md
-                - Divide and Conquer: cs/algorithm/divide-and-conquer.md
-                - Dynamic Programming: cs/algorithm/dynamic-programming.md
-                - Greedy Algorithm: cs/algorithm/greedy-algorithm.md
-                - Backtracking: cs/algorithm/backtracking.md
-                - Branch and Bound: cs/algorithm/branch-and-bound.md
-                - Pattern Searching:
-                      - KMP Algorithm: cs/algorithm/pattern-searching/kmp-algorithm.md
-                      - BM Algorithm: cs/algorithm/pattern-searching/bm-algorithm.md
-                - Cryptography Algorithm:
-                      - RSA: cs/algorithm/cryptography/rsa.md
-                      - SHA: cs/algorithm/cryptography/sha.md
-                - Graph:
-                      - DFS: cs/algorithm/graph/dfs.md
-                      - Dijkstra's Algorithm: cs/algorithm/graph/dijkstra's-algorithm.md
-                - Others:
-                      - Knuth-Shuffle Algorithm: cs/algorithm/others/knuth-shuffle-algorithm.md
-                      - Monte Carlo Tree Search: cs/algorithm/others/monte-carlo-tree-search.md
-          - Data Structure:
-                - Data Structure: cs/data-structure/index.md
-                - Binary Tree: cs/data-structure/binary-tree.md
-                - Binary Search Tree: cs/data-structure/binary-search-tree.md
-                - Heap: cs/data-structure/heap.md
-                - Red Black Tree: cs/data-structure/red-black-tree.md
-                - Disjoint Set: cs/data-structure/disjoint-set.md
-          - Problem:
-                - Inversion Pairs: cs/problem/inversion-pairs.md
-                - Max Subsequence Sum: cs/problem/max-subsequence-sum.md
-    - Python:
-          - Get Started: python/index.md
-          - Library References:
-                - Operating System Services:
-                      - os: python/library/os.md
-                      - logging: python/library/logging.md
-                - Cryptographic Services:
-                      - hashlib: python/library/hashlib.md
-                - File Formats:
-                      - configParser: python/library/configparser.md
-                - File and Directory Access:
-                      - shutil: python/library/shutil.md
-                - Internet Protocols and Support:
-                      - urllib: python/library/urllib.md
-                - Graphical User Interfaces: python/library/tkinter.md
-                - Data Persistence:
-                      - sqlite3: python/library/sqlite3.md
-          - Extension References:
-                - BeautifulSoup: python/library/bs4.md
-                - PyMySQL: python/library/pymysql.md
-                - PyYAML: python/library/pyyaml.md
-                - PyWin32: python/library/pywin32.md
-          - Applications:
-                - Spider: python/app/spider.md
-                - Task: python/app/task.md
-                - Excel: python/app/excel.md
-          - Flask: python/flask.md
-    - Development:
-          - References: dev/references.md
-          - APIs:
-                - Douban: dev/apis/douban.md
-                - Kugou: dev/apis/kugou.md
-                - League of Legends: dev/apis/lol.md
-          - MySQL:
-                - Get Started: dev/mysql/index.md
-                - FAQ: dev/mysql/faq.md
-          - Oracle:
-                - Get Stared: dev/oracle/index.md
-                - SQL: dev/oracle/sql.md
-          - Redis: dev/redis.md
-          - SQLite: dev/sqlite.md
-          - Nginx: dev/nginx.md
-          - Git: dev/git.md
-          - Linux: dev/linux.md
-          - FTP: dev/ftp.md
-          - Web:
-                - Bootstrap: dev/web/bootstrap.md
-          - JavaScript:
-                - JavaScript: dev/js/index.md
-                - jQuery: dev/js/jquery.md
-                - React: dev/js/react.md
-                - Node.js: dev/js/nodejs.md
-                - Select2: dev/js/select2.md
-                - Layer: dev/js/layer.md
-          - C:
-                - Get Started: dev/c/index.md
-          - PHP:
-                - Get Started: dev/php.md
-          - OAuth: dev/oauth.md
-          - FasfDFS: dev/fastdfs.md
-    - Misc:
-          - Activation: misc/activation.md
-          - Wiki: misc/wiki.md
-          - LaTeX: misc/latex.md
-          - Markdown: misc/markdown.md
-          - Chrome: misc/chrome.md
-          - Windows: misc/windows.md
-          - IntelliJ IDEA: misc/idea.md
-          - Visual Studio Code: misc/vscode.md
-          - Fiddler: misc/fiddler.md
-          - Charles: misc/charles.md
+  - Home: index.md
+  - Java:
+      - Java: java/index.md
+      - Basic Syntax:
+          - Annotation: java/basic/annotation.md
+          - Collection: java/basic/collection.md
+      - Extension Libraries:
+          - Apache Commons: java/lib/apache-commons.md
+          - Apache POI: java/lib/apache-poi.md
+          - HttpComponents: java/lib/http-components.md
+          - Lombok: java/lib/lombok.md
+          - Fastjson: java/lib/fastjson.md
+          - Jsoup: java/lib/jsoup.md
+      - Design Patterns:
+          - State Pattern: java/design-pattern/state-pattern.md
+          - Singleton Pattern: java/design-pattern/singleton-pattern.md
+      - Spring:
+          - Spring: java/spring/index.md
+          - AOP: java/spring/aop.md
+          - Transaction: java/spring/transaction.md
+          - Spring Boot: java/spring/spring-boot.md
+      - MyBatis: java/mybatis.md
+      - Tomcat: java/tomcat.md
+      - Maven: java/maven.md
+      - Freemarker: java/freemarker.md
+      - OGNL: java/ognl.md
+  - CS:
+      - Mathematics:
+          - Fourier Transform: cs/math/fourier-transform.md
+      - Algorithm:
+          - Algorithm: cs/algorithm/index.md
+          - Sort:
+              - Sort: cs/algorithm/sort/index.md
+              - Insertion Sort: cs/algorithm/sort/insertion-sort.md
+              - Merge Sort: cs/algorithm/sort/merge-sort.md
+              - Bucket Sort: cs/algorithm/sort/bucket-sort.md
+          - Divide and Conquer: cs/algorithm/divide-and-conquer.md
+          - Dynamic Programming: cs/algorithm/dynamic-programming.md
+          - Greedy Algorithm: cs/algorithm/greedy-algorithm.md
+          - Backtracking: cs/algorithm/backtracking.md
+          - Branch and Bound: cs/algorithm/branch-and-bound.md
+          - Pattern Searching:
+              - KMP Algorithm: cs/algorithm/pattern-searching/kmp-algorithm.md
+              - BM Algorithm: cs/algorithm/pattern-searching/bm-algorithm.md
+          - Cryptography Algorithm:
+              - RSA: cs/algorithm/cryptography/rsa.md
+              - SHA: cs/algorithm/cryptography/sha.md
+          - Graph:
+              - DFS: cs/algorithm/graph/dfs.md
+              - Dijkstra's Algorithm: cs/algorithm/graph/dijkstra's-algorithm.md
+          - Others:
+              - Knuth-Shuffle Algorithm: cs/algorithm/others/knuth-shuffle-algorithm.md
+              - Monte Carlo Tree Search: cs/algorithm/others/monte-carlo-tree-search.md
+      - Data Structure:
+          - Data Structure: cs/data-structure/index.md
+          - Binary Tree: cs/data-structure/binary-tree.md
+          - Binary Search Tree: cs/data-structure/binary-search-tree.md
+          - Heap: cs/data-structure/heap.md
+          - Red Black Tree: cs/data-structure/red-black-tree.md
+          - Disjoint Set: cs/data-structure/disjoint-set.md
+      - Problem:
+          - Inversion Pairs: cs/problem/inversion-pairs.md
+          - Max Subsequence Sum: cs/problem/max-subsequence-sum.md
+  - Python:
+      - Python: python/index.md
+      - Library:
+          - Operating System Services:
+              - logging: python/lib/logging.md
+          - File Formats:
+              - configParser: python/lib/configparser.md
+          - File and Directory Access:
+              - shutil: python/lib/shutil.md
+          - Internet Protocols and Support:
+              - urllib: python/lib/urllib.md
+          - Graphical User Interfaces: python/lib/tkinter.md
+          - Data Persistence:
+              - sqlite3: python/lib/sqlite3.md
+      - Extension References:
+          - BeautifulSoup: python/lib/bs4.md
+          - PyMySQL: python/lib/pymysql.md
+          - PyYAML: python/lib/pyyaml.md
+          - PyWin32: python/lib/pywin32.md
+      - Applications:
+          - Spider: python/app/spider.md
+          - Task: python/app/task.md
+          - Excel: python/app/excel.md
+      - Flask: python/flask.md
+  - Development:
+      - References: dev/references.md
+      - APIs:
+          - Douban: dev/apis/douban.md
+          - Kugou: dev/apis/kugou.md
+          - League of Legends: dev/apis/lol.md
+      - MySQL:
+          - Get Started: dev/mysql/index.md
+          - FAQ: dev/mysql/faq.md
+      - Oracle:
+          - Get Stared: dev/oracle/index.md
+          - SQL: dev/oracle/sql.md
+      - Redis: dev/redis.md
+      - SQLite: dev/sqlite.md
+      - Nginx: dev/nginx.md
+      - Git: dev/git.md
+      - Linux: dev/linux.md
+      - FTP: dev/ftp.md
+      - Web:
+          - Bootstrap: dev/web/bootstrap.md
+      - JavaScript:
+          - JavaScript: dev/js/index.md
+          - jQuery: dev/js/jquery.md
+          - React: dev/js/react.md
+          - Node.js: dev/js/nodejs.md
+          - Select2: dev/js/select2.md
+          - Layer: dev/js/layer.md
+      - C:
+          - Get Started: dev/c/index.md
+      - PHP:
+          - Get Started: dev/php.md
+      - OAuth: dev/oauth.md
+      - FasfDFS: dev/fastdfs.md
+  - Misc:
+      - Activation: misc/activation.md
+      - Wiki: misc/wiki.md
+      - LaTeX: misc/latex.md
+      - Markdown: misc/markdown.md
+      - Chrome: misc/chrome.md
+      - Windows: misc/windows.md
+      - IntelliJ IDEA: misc/idea.md
+      - Visual Studio Code: misc/vscode.md
+      - Fiddler: misc/fiddler.md
+      - Charles: misc/charles.md
