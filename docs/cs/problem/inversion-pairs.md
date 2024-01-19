@@ -1,15 +1,15 @@
-## Question
+# Inversion Pairs
 
 Given an array $a_1, a_2, ..., a_n$, count how many inversion pairs there are in the array. $a_i$ and $a_j$ are inversion pairs if $i<j$ and $a_i>a_j$. An example is as follows:
 
-```
+```txt
 Input: [3, 1, 2]
 Output: 2
 ```
 
-## Simple Method
+## Brute-force
 
-Use a nested loop. Its time complexity is $O(n^2)$.
+Use a nested loop whose time complexity is $O(n^2)$.
 
 ```python
 def inversion_pairs(arr):
@@ -26,7 +26,7 @@ def inversion_pairs(arr):
 
 ## Enhanced Merge Sort
 
-Like [Merge Sort](../algorithm/sort/merge-sort.md), the algorithm divides the array into two halves, counts and sorts the halves, then merges the two halves. Its time complexity is $O(n\log{n})$.
+Like [Merge Sort](../algo/sort/merge-sort.md), the algorithm divides the array into two halves, counts and sorts the halves, then merges the two halves. Its time complexity is $O(n\log{n})$.
 
 ```python
 def inversion_pairs(arr):

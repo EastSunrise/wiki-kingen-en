@@ -1,6 +1,6 @@
-## Overview
+# MyBatis
 
-Learn [MyBatis](https://mybatis.org/mybatis-3/) and its integration with [Spring](./spring/index.md) and [Spring Boot](./spring/spring-boot.md).
+Learn [MyBatis](https://mybatis.org/mybatis-3/) and its integration with [Spring](spring/index.md).
 
 ## Get Started
 
@@ -147,13 +147,13 @@ The number of items in the condition `IN ()` shouldn't exceed 1000. Otherwise, s
 
 ```xml
 <select id="select">
-	SELECT * FROM example.user
-	<where>
-		username IN
-		<foreach collection="list" item="item" open="(" close=")" separator=",">
-			<if test="(index % 999) == 998"> NULL ) OR username IN (</if>#{item}
-		</foreach>
-	</where>
+ SELECT * FROM example.user
+ <where>
+  username IN
+  <foreach collection="list" item="item" open="(" close=")" separator=",">
+   <if test="(index % 999) == 998"> NULL ) OR username IN (</if>#{item}
+  </foreach>
+ </where>
 </select>
 ```
 
@@ -163,8 +163,8 @@ The number of items in the condition `IN ()` shouldn't exceed 1000. Otherwise, s
 
 ## References
 
--   [mybatis – MyBatis 3](https://mybatis.org/mybatis-3/)
--   [GitHub - mybatis/mybatis-3: MyBatis SQL mapper framework for Java](https://github.com/mybatis/mybatis-3)
--   [mybatis-spring – MyBatis-Spring](http://mybatis.org/spring/)
--   [GitHub - mybatis/spring: Spring integration for MyBatis 3](https://github.com/mybatis/spring)
--   [mybatis-spring-boot – About](http://mybatis.org/spring-boot-starter/)
+- [mybatis – MyBatis 3](https://mybatis.org/mybatis-3/)
+- [GitHub - mybatis/mybatis-3: MyBatis SQL mapper framework for Java](https://github.com/mybatis/mybatis-3)
+- [mybatis-spring – MyBatis-Spring](http://mybatis.org/spring/)
+- [GitHub - mybatis/spring: Spring integration for MyBatis 3](https://github.com/mybatis/spring)
+- [mybatis-spring-boot – About](http://mybatis.org/spring-boot-starter/)
